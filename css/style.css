@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+}
+.center {
+    width: 100%;
+    max-width: 1150px;
+    margin: 0 auto;
+}
+header {
+    background: #ffc107;
+}
+header div a img {
+    width: 140px;
+}
+ul li a {
+    color: black;
+}
+footer a:hover {
+    text-decoration: underline !important;
+}
+footer a {
+    color: blue !important;
+}
+@media screen and (max-width: 1000px) {
+    .img-mulher {
+        display: none !important;
+    }
+    .disponivel {
+        margin-bottom: 25px;
+    }
+} 
+@media screen and (max-width: 600px) {
+    .links {
+        flex-direction: column;
+    }
+    .links .navbar ul {
+        margin: 0 auto;
+    }
+    .links .redes-sociais {
+        margin: 0 auto;
+    }
+    
+}
